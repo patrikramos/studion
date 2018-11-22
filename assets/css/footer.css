@@ -1,0 +1,83 @@
+.footer {
+	background: var(--secondary);
+	color: #ffffff;
+}
+
+.footer-content {
+	padding: 50px 0;
+}
+
+.footer-column {
+	width: 30%;
+	float: left;
+}
+.footer-column:nth-child(2) {
+	width: 40%;
+}
+
+.footer-social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.footer-social li {
+	display: inline-block;
+}
+
+.footer-social a {
+	color: #ffffff;
+	font-size: 24px;
+	display: inline-block;
+	padding: 10px;
+}
+.footer-social a:hover {
+	color: var(--primary);
+}
+
+.footer-newsletter label,
+.footer-newsletter input,
+.footer-newsletter button {
+	float: left;
+}
+
+.footer-newsletter label {
+	margin-right: 20px;
+}
+
+.footer-newsletter input {
+	background-color: var(--primary);
+	border: 0;
+	height: 48px;
+	padding: 0 10px;
+	width: 285px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer-newsletter input:focus {
+	background: #ffffff;
+}
+
+.footer-newsletter button {
+	background: #ffffff;
+	border: 0;
+	height: 48px;
+	font-size: 24px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.footer-newsletter button:hover {
+	background: var(--primary);
+}
+
+.footer-copyright {
+	padding: 30px 0;
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.footer-copyright span {
+	color: var(--primary);
+}

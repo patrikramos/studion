@@ -1,0 +1,133 @@
+/* Banner */
+.banner {
+	display: flex;
+	align-items: center;
+	height: 700px;
+	background-color: #000;
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.banner .container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.banner-content {
+	color: #ffffff;
+	width: 50%;
+	margin-top: 50px;
+}
+
+.banner-content span {
+	color: var(--primary);
+}
+
+.banner-next {
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0;
+}
+
+.banner-title {
+	font-size: 100px;
+	text-transform: uppercase;
+	line-height: 100px;
+	margin: 30px 0;
+}
+
+/* Statistics */
+.statistics {
+	background: var(--primary);
+	padding: 50px 0;
+	color: #ffffff;
+}
+
+.statistics .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.statistics-item {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.statistics-item small {
+	display: block;
+	font-size: 20px;
+}
+
+/* Institutional */
+.institutional {
+	padding: 70px 0;
+}
+
+.institutional .container{
+	display: flex;
+	align-items: center;
+
+}
+
+.institutional-content {
+	margin-left: 50px;
+	
+}
+
+.institutional-image {
+	
+}
+
+h3.institutional-title {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2.institutional-title {
+	font-size: 25px;
+}
+
+.institutional-text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Parallax */
+.parallax {
+	padding: 70px 0;
+	background-image: url("../images/parallax.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+.parallax-content {
+	width: 600px;
+	background-color: #ffffff;
+	padding: 50px;
+}
+
+.parallax-title {
+	font-size: 80px;
+	line-height: 80px;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+
+.parallax-title small {
+	display: block;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+
+.parallax-title span {
+	color: var(--primary);
+}

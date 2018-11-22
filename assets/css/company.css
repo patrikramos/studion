@@ -1,0 +1,40 @@
+.page-company{
+    background: url("../images/company.jpg");
+}
+.company-content{
+    padding-top: 30px;
+}
+.company-content .container{
+    display: flex;
+}
+
+.company-description{
+    padding: 50px 100px 50px 50px;
+    width: 60%;
+}
+
+.company-description h2{
+    margin-bottom: 30px;
+}
+.company-man{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+.company-man img{
+    display: block;
+    width: 100%;
+}
+.company-partners{
+    background: var(--primary);
+    padding: 50px 0px;
+    text-align: center;
+}
+.company-partners h2{    
+    margin-bottom: 30px;
+}
+.company-video{
+    padding: 50px 0;
+    text-align: center;
+
+}
